@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relógio Digital</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <header>
+        <nav class="menu">
+        <div class="menu__anuncio">
+            <marquee direction="left">
+               <div class="frase">
+                <span> Curiosidade do dia: </span>
+                <span class="curiosidade"> O tempo é relativo de acordo com a teoria da relatividade de Einstein.</span>
+  
+            </div>
+            </marquee>
+        </div> 
+        <div class="menu__funcoes">
+        <ul>
+            <li><img class="icon" id="cronometro" src="./assets/img/icons/cronometro.png"></li>
+            <li><img class="icon" id="alarme" src="./assets/img/icons/alarme.png"></li>
+            <li><img class="icon" id="configuracao" src="./assets/img/icons/config.png"></li>
+        </ul>
+        </div>
+        </nav>
+      </header>
+<main>
     <div class="relogio">
         <div>
             <span id="horas">00</span>
@@ -22,6 +44,7 @@
             <span class="tempo">Segundos</span>
         </div>
     </div>
+</main>
 </body>
 <script src="./assets/js/script.js"></script>
 </html>

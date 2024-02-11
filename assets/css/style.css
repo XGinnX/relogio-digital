@@ -6,9 +6,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
+main {
     height: 100vh;
-    background: linear-gradient(90deg, #ffe53bd8, #ff2525da);;
+    background: linear-gradient(90deg, #ffe53bd8, #ff2525da);
     display: flex;
     align-items:center;
     justify-content: center;
@@ -45,4 +45,43 @@ body {
 }
 .relogio span.tempo {
     font-size: 10px;
+}
+header{
+    background: black;
+    height: 5vh;
+
+}
+.menu__anuncio{ 
+    color: #fff;
+    text-decoration: none;
+   
+}
+.frase {
+    font-size: 28px;
+    margin-top: 10px;
+}
+.menu__funcoes {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.menu__funcoes ul {
+    display: flex;
+    padding: 0;
+}
+.menu__funcoes li {
+    margin: 10px;
+}
+.icon {
+    height: 55px;
+    width: 55px;
+    cursor:pointer;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
 }
